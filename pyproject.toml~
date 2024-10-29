@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nadc-2025"
+version = "0.1.0"
+description = ""
+authors = ["FriedLongJohns <81837862+FriedLongJohns@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+ursina = "^7.0.0"
+
+[tool.poetry.scripts]
+app = "nadc-2025.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
